@@ -1,0 +1,187 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background: #080808;
+  margin: 0;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin-left:28rem;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.header {
+  padding: 3rem 0;
+  background: #080808;
+}
+.header .nav ul {
+  display: flex;
+  gap: 2rem;
+  color: #58ff7d;
+  margin-left: -30rem;
+  margin-top: -1rem;
+}
+.header .nav ul a {
+  color: #9c9c9c;
+}
+.header .nav ul a:hover {
+  color: #58ff7d;
+}
+.header .nav ul a.active {
+  color: #58ff7d;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+table {
+  width: 90%;
+  max-width: 1000px;
+  border-collapse: collapse;
+  background: #3b444b;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 20rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: 1px solid #58ff7d;
+  border-radius: 3px;
+ 
+}
+
+thead {
+  background-color: #080808;
+  color: #58ff7d;
+  text-transform: uppercase;
+}
+
+th, td {
+  text-align: center;
+  padding: 15px;
+  font-size: 14px;
+}
+
+tbody tr {
+  border-bottom: 1px solid #58ff7d;
+  transition: background-color 0.3s ease;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #373737;
+}
+
+tbody tr:hover {
+  /* background-color: #58ff7d; */
+}
+
+tbody td {
+  color: #fff;
+}
+
+tbody td.actions {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+button {
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 12px;
+}
+
+button.edit {
+  background-color: #3498db;
+}
+
+button.edit:hover {
+  background-color: #2980b9;
+}
+
+button.delete {
+  background-color: #e74c3c;
+}
+
+button.delete:hover {
+  background-color: #c0392b;
+}
+
+caption {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #58ff7d;
+}
+
+.schedule {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+
+  border-radius: 8px;
+  margin-left: 6rem;
+  margin-top: 10rem;
+}
+.schedule>h1{
+
+  color: #58ff7d;
+  margin-left: 16rem;
+  
+}
+
+.day {
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: #333;
+  border-radius: 8px;
+  
+}
+
+.day h3 {
+  margin: 0 0 5px;
+  font-size: 18px;
+  color: #FFD700;
+}
+
+.day p {
+  margin: 0 0 10px;
+  font-size: 14px;
+  color: #ccc;
+}
+
+.game {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.time {
+  flex: 0 0 100px;
+  font-weight: bold;
+  font-size: 14px;
+  text-align: center;
+}
+
+.matchup {
+  flex: 1;
+  font-size: 16px;
+}
+
+.team {
+  font-weight: bold;
+  color: #FFD700;
+}
